@@ -4,7 +4,7 @@ describe "NYC Pigeon Organizer" do
 
   describe "#nyc_pigeon_organizer" do
 
-    before(:all) do
+    before(all) do
       pigeon_data = {
         :color => {
           :purple => ["Theo", "Peter Jr.", "Lucky"],
